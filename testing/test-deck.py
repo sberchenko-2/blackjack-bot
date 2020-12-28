@@ -20,4 +20,4 @@ draw = deck.draw()[0]
 
 assert deck.count == 51
 assert deck.chance_of(draw) == 3/51
-assert deck.chance_of(draw + 1 if draw != 10 else draw - 1) == 4/52
+assert deck.chance_of(draw + 1 if draw != 10 else draw - 1) == 4/51
