@@ -32,7 +32,7 @@ class Deck:
         :param card: An integer representing the numerical value of a card - ace is 1 and max is 10
         :return: The probability of the next draw being the input - return type is float
         """
-        return self.cards[card] / self.count
+        return self.counts[card] / self.count
 
     def draw(self, n=1):
         """
